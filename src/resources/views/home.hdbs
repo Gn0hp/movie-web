@@ -1,0 +1,45 @@
+<div class="content-container">
+  <div
+    class="featured-content"
+    style="
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+        url('{{coverImg}}');
+    "
+  >
+    <img class="featured-title" src="{{titleImg}}" alt="" />
+    <p class="featured-desc">
+     asodijqwodijaskodjasdijoiasc asdjpowdjkqpocmaslckamsc ạdoiapsjdaskndascn
+     asdoiasdojasdmasdasdj awdjaposidjasidnasdncasdj ádj
+    </p>
+    <button class="btn-watch">WATCH</button>
+  </div>
+  <div class="movie-list-container">
+    <h1 class="movie-list-title">NEW RELEASE</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each arr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img src="{{this.images.coverart}}" alt="" class="movie-list-item-img" />
+            <span class="movie-list-item-title">{{this.title}}</span>
+            <p class="movie-list-item-desc">
+              {{this.title}}
+            </p>
+            <button class="movie-list-item-btn">Watch now</button>
+            
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    const toggleBall=$('.toggle-ball');
+    
+  })
+</script>
