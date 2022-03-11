@@ -1,8 +1,9 @@
-var axios = require("axios").default;
+//var axios = require("axios").default;
 const fs = require("fs");
 const converter = require("../../utils/convertObject");
+const Movies = require("../models/Movies");
 class SiteController {
-  async home(req, res) {
+  home(req, res) {
     // var options = {
     //     method: 'GET',
     //     url: 'https://shazam.p.rapidapi.com/songs/list-artist-top-tracks',
@@ -13,11 +14,16 @@ class SiteController {
     //     }
     //   };
     //axios.request(options)
-    const data = await JSON.parse(fs.readFileSync("./Example.json", "utf-8"));
-    res.render("home", {
-      arr: data.tracks,
-      coverImg: data.tracks[0].images.background,
-      titleImg: data.tracks[0].images.coverarthq,
+    //const data = await JSON.parse(fs.readFileSync("./Example.json", "utf-8"));
+
+    Movies.find({})
+      .then((data)=>converter.multipleToObject(data))
+    .then((data) => {
+      res.render("home", {
+        arr: data,
+        coverImg: data[0].images.background,
+        titleImg: data[0].images.coverarthq,
+      });
     });
   }
 }

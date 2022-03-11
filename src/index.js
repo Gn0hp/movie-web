@@ -27,6 +27,10 @@ app.set("views", path.join(__dirname, "resources", "views"));
 //set static dir
 app.use(express.static(path.join(__dirname, "public")));
 
+const db =require('./app/config/db')
+db.connect();
+
+
 route(app)
 
 
