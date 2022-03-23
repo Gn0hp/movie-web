@@ -28,6 +28,7 @@ body {
 }
 .movie-list-container{
   margin-left: 50px;
+  color: white;
 }
 .menu-list-item:hover {
   background-color: rgb(94, 90, 90);
@@ -244,4 +245,20 @@ body {
 .login-form{
   margin-left: 60px;
   width: 50%;
+}
+.post-container{
+  justify-content: center;
+  margin-left: 60px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 400px;
+}
+.post-title{
+  position: absolute;
+}
+.post-container:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+    transform-style: preserve-3d;
 }

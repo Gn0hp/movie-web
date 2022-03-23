@@ -169,7 +169,8 @@
     </div>
   </div>
   <div class="movie-list-container">
-    <h1 class="movie-list-title">PTIT News</h1>
+    <a href="/ptit/news">
+    <h1 class="movie-list-title">PTIT News</h1></a>
     <div class="movie-list-wrapper">
       <div class="movie-list">
         {{#each ptitDataArr}}

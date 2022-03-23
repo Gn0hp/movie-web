@@ -1,0 +1,19 @@
+{{#each ptitDataArr}}
+<div class="post-container">
+    <a href="">
+    <div class="movie-list-item-img">
+        <img
+        src="{{ this.img }}"
+        alt=""
+        class="movie-list-item-img"
+        />
+        <span class="post-title">{{ this.title }}</span>
+        <p class="movie-list-item-desc">
+        {{ this.title }}
+        </p>
+        <a href="/movies/{{this.key}}">
+        <button class="movie-list-item-btn">Watch now</button></a>
+    </div>
+</a>
+</div>
+{{/each}}

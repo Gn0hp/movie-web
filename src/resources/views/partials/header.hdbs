@@ -1,11 +1,13 @@
 <div class="navbar">
   <div class="navbar-container">
+    <a href="/me">
     <div class="logo-container col">
       <h1 class="logo">PhongT</h1>
     </div>
+  </a>
     <div class="menu-container col">
       <ul class="menu-list">
-        <li class="menu-list-item active">Home</li>
+        <a href="/"><li class="menu-list-item active">Home</li></a>
         <li class="menu-list-item">Movies</li>
         <li class="menu-list-item">Series</li>
         <li class="menu-list-item">Popular</li>
