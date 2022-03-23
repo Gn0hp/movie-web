@@ -57,7 +57,135 @@
             <p class="movie-list-item-desc">
               {{ this.title }}
             </p>
-            <button class="movie-list-item-btn">Watch now</button>
+            <a href="/movies/{{this.key}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div>
+  <div class="movie-list-container">
+    <h1 class="movie-list-title">Popular</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each arr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img
+              src="{{ this.images.coverart }}"
+              alt=""
+              class="movie-list-item-img"
+            />
+            <span class="movie-list-item-title">{{ this.title }}</span>
+            <p class="movie-list-item-desc">
+              {{ this.title }}
+            </p>
+            <a href="/movies/{{this.key}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div> <div class="movie-list-container">
+    <h1 class="movie-list-title">Trending</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each arr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img
+              src="{{ this.images.coverart }}"
+              alt=""
+              class="movie-list-item-img"
+            />
+            <span class="movie-list-item-title">{{ this.title }}</span>
+            <p class="movie-list-item-desc">
+              {{ this.title }}
+            </p>
+            <a href="/movies/{{this.key}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div> <div class="movie-list-container">
+    <h1 class="movie-list-title">Series</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each arr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img
+              src="{{ this.images.coverart }}"
+              alt=""
+              class="movie-list-item-img"
+            />
+            <span class="movie-list-item-title">{{ this.title }}</span>
+            <p class="movie-list-item-desc">
+              {{ this.title }}
+            </p>
+            <a href="/movies/{{this.key}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div> <div class="movie-list-container">
+    <h1 class="movie-list-title">Best Rated</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each arr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img
+              src="{{ this.images.coverart }}"
+              alt=""
+              class="movie-list-item-img"
+            />
+            <span class="movie-list-item-title">{{ this.title }}</span>
+            <p class="movie-list-item-desc">
+              {{ this.title }}
+            </p>
+            <a href="/movies/{{this.key}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
+          </div>
+        </div>
+        {{/each}}
+
+        <i class="fas fa-chevron-right arrow"></i>
+      </div>
+    </div>
+  </div>
+  <div class="movie-list-container">
+    <h1 class="movie-list-title">PTIT News</h1>
+    <div class="movie-list-wrapper">
+      <div class="movie-list">
+        {{#each ptitDataArr}}
+        <div class="movie-list-item">
+          <div class="movie-list-item-img">
+            <img
+              src="{{ this.img }}"
+              alt=""
+              class="movie-list-item-img"
+            />
+            <span class="movie-list-item-title">{{ this.title }}</span>
+            <p class="movie-list-item-desc">
+              {{ this.title }}
+            </p>
+            <a href="/movies/{{this.description}}">
+            <button class="movie-list-item-btn">Watch now</button></a>
           </div>
         </div>
         {{/each}}

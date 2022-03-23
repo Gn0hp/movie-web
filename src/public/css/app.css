@@ -21,16 +21,24 @@ body {
   font-family: "Sen", sans-serif;
 }
 
+.logo-container:hover {
+  background-color: #5e5a5a;
+}
+
 .logo-container {
-  flex: 1;
+  cursor: pointer;
 }
 
 .logo {
   color: #4dbf00;
 }
 
-.menu-container {
-  flex: 6;
+.movie-list-container {
+  margin-left: 50px;
+}
+
+.menu-list-item:hover {
+  background-color: #5e5a5a;
 }
 
 .menu-list {
@@ -40,6 +48,7 @@ body {
 
 .menu-list-item {
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .menu-list-item.active {
@@ -47,7 +56,6 @@ body {
 }
 
 .profile-container {
-  flex: 4;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -265,6 +273,11 @@ body {
 .arrow:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+}
+
+.login-form {
+  margin-left: 60px;
+  width: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -17,15 +17,20 @@ body {
   color: white;
   font-family: "Sen", sans-serif;
 }
-.logo-container {
-  flex: 1;
+.logo-container:hover {
+  background-color: rgb(94, 90, 90);
+}
+.logo-container{
+  cursor: pointer;
 }
 .logo {
   color: #4dbf00;
 }
-
-.menu-container {
-  flex: 6;
+.movie-list-container{
+  margin-left: 50px;
+}
+.menu-list-item:hover {
+  background-color: rgb(94, 90, 90);
 }
 .menu-list {
   display: flex;
@@ -33,12 +38,13 @@ body {
 }
 .menu-list-item {
   margin-right: 30px;
+  cursor: pointer;
 }
 .menu-list-item.active {
   font-weight: bold;
 }
 .profile-container {
-  flex: 4;
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -233,4 +239,9 @@ body {
 .arrow:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+}
+
+.login-form{
+  margin-left: 60px;
+  width: 50%;
 }
