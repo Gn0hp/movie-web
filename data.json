@@ -1,6 +1,5 @@
 [
     {
-        "_id": "6264e7275331bce14a37186e",
         "name": "iphoneX",
         "quantity" : "0",      
         "price" : "0.99",
@@ -33,7 +32,6 @@
         ]
     },
     {
-        "_id": "6264e7275331ywm14a37186e",
         "name": "iphoneXsMax",
         "quantity" : "0",      
         "price" : "0.99",
@@ -45,7 +43,6 @@
         "carted": []
     },
     {
-        "_id": "6264e7275331bce14a38162e",
         "name": "iphoneXs",
         "quantity" : "21",      
         "price" : "0.99",
@@ -82,7 +79,6 @@
         ]
     },   
     {
-        "_id": "6264e7275091bce14l37186e",
         "name": "iphone11",
         "quantity" : "0",      
         "price" : "0.99",
@@ -94,7 +90,6 @@
         "carted": []
     },
     {
-        "_id": "6264e7281091bce14m37186e",
         "name": "iphone11pro",
         "quantity" : "0",      
         "price" : "0.99",
@@ -106,7 +101,6 @@
         "carted": []
     },
     {
-        "_id": "5864h7275331ien14a37276e",
         "name": "iphone12",
         "quantity" : "34",      
         "price" : "0.99",
@@ -144,7 +138,6 @@
         ]
     },
     {
-        "_id": "3626e7281091bce14m37186e",
         "name": "iphone12mini",
         "quantity" : "0",      
         "price" : "0.99",
@@ -156,7 +149,6 @@
         "carted": []
     },
     {
-        "_id": "6264e7275331bce14a37186e",
         "name": "iphone12pro",
         "quantity" : "0",      
         "price" : "0.99",
@@ -194,7 +186,6 @@
         ]
     },
     {
-        "_id": "6264e7275331hie14n37186e",
         "name": "iphone12pro",
         "quantity" : "35",      
         "price" : "0.99",
@@ -231,7 +222,6 @@
         ]
     },
     {
-        "_id": "6264e6869331hie14n37186e",
         "name": "iphone12pro",
         "quantity" : "67",      
         "price" : "0.99",
@@ -268,7 +258,7 @@
         ]
     },
     {
-        "_id": "6264e7274567nhu14n37186e",
+
         "name" : "iphone12promax",
         "quantity" : "89",      
         "price" : "0.99",
@@ -305,7 +295,6 @@
         ]
     },
     {
-        "_id": "6264e7275331hwer14n21906e",
         "name": "iphone13",
         "quantity" : "36",      
         "price" : "0.99",
@@ -342,7 +331,6 @@
         ]
     },
     {
-        "_id": "3615t7281091bce14m37186e",
         "name": "iphonese",
         "quantity" : "0",      
         "price" : "0.99",
@@ -354,7 +342,6 @@
         "carted": []
     },
     {
-        "_id": "3615t7365091bce14m37186e",
         "name": "iphonese2",
         "quantity" : "0",      
         "price" : "0.99",
@@ -366,7 +353,6 @@
         "carted": []
     },
     {
-        "_id": "6164e7275331hun14n21906e",
         "name": "iphonese3",
         "quantity" : "29",      
         "price" : "0.99",
@@ -403,7 +389,6 @@
         ]
     },
     {
-        "_id": "6164e1234331hun14p21906e",
         "name": "iphone5",
         "quantity" : "58",      
         "price" : "0.99",
@@ -439,7 +424,6 @@
             }          
         ]
     },{
-        "_id": "3615r7365091bce14m37186e",
         "name": "iphone7",
         "quantity" : "0",      
         "price" : "0.99",
@@ -451,7 +435,6 @@
         "carted": []
     },
     {
-        "_id": "6164e1234331duc14n21906e",
         "name": "iphone13pro",
         "quantity" : "65",      
         "price" : "0.99",
@@ -489,7 +472,6 @@
     },
 
     {
-        "_id": "6164e1234331duc14n21906e",
         "name": "iphone13promax",
         "quantity" : "65",      
         "price" : "0.99",
@@ -526,7 +508,6 @@
         ]
     },
     {
-        "_id": "6164e1234331duc14n21906e",
         "name": "iphone6",
         "quantity" : "65",      
         "price" : "0.99",
