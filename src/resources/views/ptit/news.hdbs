@@ -1,6 +1,6 @@
 {{#each ptitDataArr}}
 <div class="post-container">
-    <a href="">
+    <a href="{{this.link}}">
     <div class="movie-list-item-img">
         <img
         src="{{ this.img }}"
@@ -9,9 +9,9 @@
         />
         <span class="post-title">{{ this.title }}</span>
         <p class="movie-list-item-desc">
-        {{ this.title }}
+        {{ this.des }}
         </p>
-        <a href="/movies/{{this.key}}">
+        <a href="">
         <button class="movie-list-item-btn">Watch now</button></a>
     </div>
 </a>
