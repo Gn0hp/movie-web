@@ -26,7 +26,7 @@
         <div class="toggle-ball"></div>
       </div>
       <div style="display: flex;">
-        <a href="/authenticate/login">Login</a>
+        <a href="http://localhost:3002/login">Login</a>
         <a style="margin-left: 10px;" href="/authenticate/signup">Sign Up</a>
       </div>
     </div>

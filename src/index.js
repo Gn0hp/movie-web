@@ -4,8 +4,9 @@ const route=require('./routes/index')
 const express = require('express');
 const app = express();
 const port = 3000;
+const session = require('express-session');
 app.listen(port,() => {
-    console.log('server started at port: '+port);
+    console.log('server started at: http://localhost:'+port);
 })
 
 // config handlebars
@@ -20,6 +21,15 @@ app.set("view engine", "hdbs");
 //parse+encoded req
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+
+
+//session 
+app.use(session({
+    secret: 'not so secret',
+    resave: true,
+    saveUninitialized: true,
+    cookie: { secure: false, httpOnly: false}
+}))
 
 //set view
 app.set("views", path.join(__dirname, "resources", "views"));
