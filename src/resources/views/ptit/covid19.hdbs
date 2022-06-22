@@ -1,0 +1,18 @@
+
+<div class="menu-wrapper" style = "font-size: 24px">
+   <a style ="margin-left: 50px;" href ="/ptit/news" > <span>Homepage</span></a>
+   <a href ="/ptit/introductions"> <span>Introduction</span></a>
+   <a href ="/ptit/education"><span>Education</span></a>
+    <a href ="/ptit/tech"> <span>Tech</span></a>
+    <a href ="/ptit/cooperations "> <span>Cooperation</span></a>
+    <a href ="/ptit/entrancy"> <span>Entrancy</span></a>
+    <a href ="/ptit/library"> <span>Library</span></a>
+    <a href ="/ptit/emails"> <span>Emails</span></a>
+     <a href ="/ptit/covid19">  <span>Covid-19</span></a>
+</div>
+
+<div class="container">
+   <h1 class="title">COVID19</h1>
+   <img width="1200" height="463" src="https://portal.ptit.edu.vn/wp-content/uploads/2020/02/banner_coronavirus.jpg">
+
+</div>

@@ -1,0 +1,90 @@
+
+
+<div class="menu-wrapper" style = "font-size: 24px">
+   <a style ="margin-left: 50px;" href ="/ptit/news"> <span>Homepage</span></a>
+   <a href ="/ptit/introductions"> <span>Introduction</span></a>
+   <a href ="/ptit/education"><span>Education</span></a>
+    <a href ="/ptit/tech"> <span>Tech</span></a>
+    <a href ="/ptit/cooperations "> <span>Cooperation</span></a>
+    <a href ="/ptit/entrancy"> <span>Entrancy</span></a>
+    <a href ="/ptit/library"> <span>Library</span></a>
+    <a href ="/ptit/emails"> <span>Emails</span></a>
+     <a href ="/ptit/covid19">  <span>Covid-19</span></a>
+</div>
+
+<table class="lstCom aligncenter" style ="margin-left: 58px;">
+<thead>
+<tr style="height: 48px;">
+<th style="height: 48px;">STT</th>
+<th style="height: 48px;">TIÊU ĐỀ</th>
+<th style="height: 48px;">TÓM TẮT</th>
+<th style="height: 48px;">TẢI VỀ MÁY</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 48px;">
+<td style="height: 48px;">1</td>
+<td style="height: 48px; text-align: left;">Ngành Truyền thông Đa phương tiện</td>
+<td style="height: 48px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Truyền thông Đa phương tiện – trình độ đại học (tạm thời)</td>
+<td style="height: 48px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">2</td>
+<td style="height: 24px; text-align: left;">Ngành Công nghệ Đa phương tiện</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Công nghệ Đa phương tiện – trình độ đại học</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">3</td>
+<td style="height: 24px; text-align: left;">Ngành Kế toán</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Kế toán – trình độ đại học</td>
+<td style="height: 24px;"><a href="http://portal.ptit.edu.vn/wp-content/uploads/2016/05/Chuong_trinh_chitietbanhanhKe_toan.docx"><img class="aligncenter" src="http://ptit.edu.vn/wps/wcm/connect/2421a4804f1f2d35a552a572a003f287/download3.jpg?MOD=AJPERES&amp;CACHEID=2421a4804f1f2d35a552a572a003f287" width="20" height="16"></a></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">4</td>
+<td style="height: 24px; text-align: left;">Ngành Quản trị kinh doanh</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Marketing – trình độ đại học</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">5</td>
+<td style="height: 24px; text-align: left;">Ngành Marketing</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Marketing – trình độ đại học</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">6</td>
+<td style="height: 24px; text-align: left;">Ngành An toàn thông tin</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành An toàn thông tin – Hệ chính quy</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">7</td>
+<td style="height: 24px; text-align: left;">Ngành Công nghệ thông tin</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Công nghệ thông tin – trình độ đại học</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 24px;">
+<td style="height: 24px;">8</td>
+<td style="height: 24px; text-align: left;">Ngành Điện tử – Truyền thông</td>
+<td style="height: 24px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Kỹ thuật Điện tử, truyền thông – trình độ đại học</td>
+<td style="height: 24px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+<tr style="height: 48px;">
+<td style="height: 48px;">9</td>
+<td style="height: 48px; text-align: left;">Ngành Công nghệ Kỹ thuật Điện, điện tử</td>
+<td style="height: 48px; text-align: left;">Chương trình giáo dục đại học theo tín chỉ ngành Công nghệ Kỹ thuật Điện, điện tử – trình độ đại học</td>
+<td style="height: 48px;"><img class="aligncenter wp-image-4254" src="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg" alt="download3" width="21" height="17" srcset="https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3.jpg 251w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-182x146.jpg 182w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-50x40.jpg 50w, https://portal.ptit.edu.vn/wp-content/uploads/2016/04/download3-94x75.jpg 94w" sizes="(max-width: 21px) 100vw, 21px"></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div></div></div>			</div>
+			
+				
+		</div>
+		
+		<!-- .four-columns - sidebar -->
+		
+	</div>
+</div>
