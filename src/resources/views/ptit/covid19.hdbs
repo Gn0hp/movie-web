@@ -12,7 +12,16 @@
 </div>
 
 <div class="container">
-   <h1 class="title">COVID19</h1>
-   <img width="1200" height="463" src="https://portal.ptit.edu.vn/wp-content/uploads/2020/02/banner_coronavirus.jpg">
-
+   <div>
+      <h1 class="title">COVID19</h1>
+      <img width="1200" height="463" src="https://portal.ptit.edu.vn/wp-content/uploads/2020/02/banner_coronavirus.jpg">
+   </div>
+   <div style="color:white;" >
+      <h3 >1.THÔNG BÁO LIÊN QUAN ĐẾN COVID-19 CỦA HỌC VIỆN</h3>  
+      {{#each ptitDataArr}}
+      <div>
+         <img src="{{this.img}}"> 
+      </div>
+      {{/each}}
+   </div>
 </div>

@@ -38,10 +38,17 @@ class PtitController {
   } 
   async covid19 (req,res){
     Ptit.find({type: 'covid-19-report'}).exec()
-      .then(data=>{
-        console.log(data.length)
+      .then(data=> converter.multipleToObject(data))
+      .then(data=> {
+        let arr = []
+        data.forEach(element => {
+          if(element.type) arr=[...arr,element] 
+        })
+        res.render("ptit/covid19",{
+          ptitDataArr: arr,
+        });
       })
-    res.render("ptit/covid19");
+   
   } 
 
 }
@@ -89,7 +96,7 @@ module.exports = new PtitController();
   },
   "img": "https://portal.ptit.edu.vn/wp-content/uploads/2021/07/anh-bia-ho-tro-covid.jpg",
   "href": "https://portal.ptit.edu.vn/hoc-vien-cong-nghe-buu-chinh-vien-thong-co-so-ha-noi-ho-tro-sinh-vien-ky-tuc-xa-trong-thoi-gian-ha-noi-gian-cach-xa-hoi/",
-  "des": "Học viện Công nghệ Bưu chính Viễn thông – Cơ sở Hà Nội hỗ trợ sinh viên ký túc xá trong thời gian Hà Nội giãn cách xã hội",
+  "des": "Học viện Công nghệ Bưu chính Viễn thông – Cơ sở Hà Nội hỗ trợh sinh viên ký túc xá trong thời gian Hà Nội giãn cách xã hội",
   "type": "covid-19-report"
 }
 
