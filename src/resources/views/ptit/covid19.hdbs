@@ -1,0 +1,55 @@
+
+<div class="menu-wrapper" style = "font-size: 24px">
+   <a style ="margin-left: 50px;" href ="/ptit/news" > <span>Homepage</span></a>
+   <a href ="/ptit/introductions"> <span>Introduction</span></a>
+   <a href ="/ptit/education"><span>Education</span></a>
+    <a href ="/ptit/tech"> <span>Tech</span></a>
+    <a href ="/ptit/cooperations "> <span>Cooperation</span></a>
+    <a href ="/ptit/entrancy"> <span>Entrancy</span></a>
+    <a href ="/ptit/library"> <span>Library</span></a>
+    <a href ="/ptit/emails"> <span>Emails</span></a>
+     <a href ="/ptit/covid19">  <span>Covid-19</span></a>
+</div>
+
+<div style="margin-left: 50px;">
+   <div>
+      <h1 class="title">COVID19</h1>
+      <img width="1200" height="463" src="https://portal.ptit.edu.vn/wp-content/uploads/2020/02/banner_coronavirus.jpg">
+   </div>
+   <h3 >1.THÔNG BÁO LIÊN QUAN ĐẾN COVID-19 CỦA HỌC VIỆN</h3>  
+   <div style="color:white;">   
+      {{#each ptitDataArr}}
+      <div class="post-container" >
+         <a href="{{this.href}}">
+            <img src="{{this.img}}"> 
+            <span class="post-title">{{ this.des }}</span>
+         </a>
+      </div>
+      {{/each}}
+   </div>
+   <h3> 2. TỜ KHAI Y TẾ   </h3>
+   <div class="wpb_wrapper">
+      <p>Trước tình hình thực tế của dịch bệnh Covid-19, để tăng cường các biện pháp phòng, chống dịch bệnh này khi học sinh, sinh viên đi học trở lại, ngày 13/02/2020, Bộ Giáo dục và Đào tạo đã có công văn số 406/BGDĐT-GDTC yêu cầu 63 tỉnh, thành phố thực hiện các nội dung theo hướng dẫn của Bộ Y tế tại công văn số 180/MT-VP.</p>
+<p>Để phối hợp các cơ quan chức năng trong công tác phòng chống dịch bệnh, đảm bảo sức khỏe cho sinh viên, đề nghị toàn thể Sinh viên, Học viên cung cấp thông tin y tế tại bảng khảo sát này.</p>
+<p>Đây là tài liệu quan trọng, thông tin của Anh/Chị sẽ giúp cơ quan y tế liên lạc khi cần thiết để phòng chống dịch bệnh truyền nhiễm.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdArzEhTvAYQ9od3kFsD148RZgYdgmqo4I6bj521bLLGBMYow/viewform">Chi tiết bảng khảo sát</a></p>
+
+   </div>
+   <h3>3. SỐ LIỆU THỐNG KÊ</h3>
+   <div class="wpb_wrapper">
+      <iframe src="https://gadgets.dantri.com.vn/corona?embed=true" style="height: 300px; width: 100%; border: none; --darkreader-inline-border-top: initial; --darkreader-inline-border-right: initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-left: initial;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""></iframe>
+   </div>
+
+   <h3>4. TÌM HIỂU VỀ DỊCH COVID-19</h3>
+   <div style="color:white;">   
+      {{#each p4}}
+      <div class="post-container" >
+         <a href="{{this.link}}">
+            <img src="{{this.img}}" style="width: 275px; height: 275px;"> 
+            <span class="post-title">{{ this.des }}</span>
+         </a>
+      </div>
+      {{/each}}
+   </div>
+   <div style="height:50px"></div>
+</div>

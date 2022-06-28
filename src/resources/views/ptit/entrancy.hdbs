@@ -1,0 +1,11 @@
+<div class="menu-wrapper" style = "font-size: 24px">
+   <a style ="margin-left: 50px;" href ="/ptit/news" > <span>Homepage</span></a>
+   <a href ="/ptit/introductions"> <span>Introduction</span></a>
+   <a href ="/ptit/education"><span>Education</span></a>
+    <a href ="/ptit/tech"> <span>Tech</span></a>
+    <a href ="/ptit/cooperations "> <span>Cooperation</span></a>
+    <a href ="/ptit/entrancy"> <span>Entrancy</span></a>
+    <a href ="/ptit/library"> <span>Library</span></a>
+    <a href ="/ptit/emails"> <span>Emails</span></a>
+     <a href ="/ptit/covid19">  <span>Covid-19</span></a>
+</div>
