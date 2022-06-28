@@ -41,11 +41,15 @@ class PtitController {
       .then(data=> converter.multipleToObject(data))
       .then(data=> {
         let arr = []
+        let arr2 = []
         data.forEach(element => {
-          if(element.type) arr=[...arr,element] 
+          if(element.type == "covid-19-report") arr=[...arr,element] 
+          if(element.type == "covid-19-p4") arr2 = [...arr2,element]
         })
+        
         res.render("ptit/covid19",{
           ptitDataArr: arr,
+          p4: arr2
         });
       })
    
@@ -120,3 +124,28 @@ module.exports = new PtitController();
   "type": "covid-19-report"
 }
 */
+
+
+
+
+/* p4:
+  {
+    "img": "https://portal.ptit.edu.vn/wp-content/uploads/2020/03/cau-hoi1.jpg",
+    "des": "Bộ Y Tế yêu cầu tăng cường truyền thông phòng, chống bệnh viêm đường hô hấp COVID -19 như sau: CV 643",
+    "link": "https://portal.ptit.edu.vn/bo-y-te-yeu-cau-tang-cuong-truyen-thong-phong-chong-benh-viem-duong-ho-hap-covid-19/",
+    "type": "covid-19-p4"
+  }
+  {
+    "img": "https://portal.ptit.edu.vn/wp-content/uploads/2020/03/cau-hoi1.jpg",
+    "des": "Bộ Y Tế khuyến cáo phòng chống bệnh COVID-19 cho người điều khiển phương tiện giao thông công cộng và phương tiện sử dụng ứng dụng […]",
+    "link": "https://portal.ptit.edu.vn/khuyen-cao-cua-bo-y-te-ve-hong-chong-benh-covid-19-cho-nguoi-dieu-khien-phuong-tien-giao-thong-cong-cong-va-phuong-tien-su-dung-ung-dung-ket-noi/",
+    "type": "covid-19-p4"
+  }
+  {
+    "img": "https://portal.ptit.edu.vn/wp-content/uploads/2020/03/user-guide-e1583739961133.jpg",
+    "des": "Danh mục những việc cần làm để phòng chống dịch bệnh COVID-19 trong trường học",
+    "link": "https://portal.ptit.edu.vn/danh-muc-nhung-viec-can-lam-de-phong-chong-dich-benh-covid-19-trong-truong-hoc/",
+    "type": "covid-19-p4"
+  }
+
+*/ 
